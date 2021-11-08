@@ -16,6 +16,37 @@ Please follow below steps to integrate this control in your next project.
 
 <h1>Getting Started</h1>
 
+
+### How to
+
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build gradle file
+
+    allprojects {
+		   repositories {
+			 ...
+			 maven { url 'https://jitpack.io' }
+		 }
+	 }
+     
+     
+Step 2. Add the dependency
+
+     dependencies {
+	        implementation 'com.github.VishalBeepBro:Audio-Trimmer-Android:1.0'
+	 }
+     
+
+
+
+
+
+*************************************************
+
+
+
+
 > Permission and declaration in AndroidManifest.xml file
 
 ```
@@ -75,6 +106,7 @@ Please follow below steps to integrate this control in your next project.
 ```
     Modify activity_audio_trim.xml file
 ```
+
 
 <h1>Bugs and Feedback</h1>
 
